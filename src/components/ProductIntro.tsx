@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Shield, Users, Wine, Clock, Support } from 'lucide-react';
+import { Zap, Shield, Users, Wine, Clock, HelpCircle } from 'lucide-react';
 
 const ProductIntro: React.FC = () => {
   return (
@@ -33,7 +33,7 @@ const ProductIntro: React.FC = () => {
         />
 
         <FeatureCard
-          icon={<Support className="w-12 h-12 text-red-500" />}
+          icon={<HelpCircle className="w-12 h-12 text-red-500" />}
           title="24/7 支持"
           description="我们提供全天候的技术支持，确保您在任何时候都能获得帮助。"
         />
