@@ -4,19 +4,19 @@ import { Check } from 'lucide-react';
 const Pricing: React.FC = () => {
   const plans = [
     {
-      name: "基础版",
-      price: "¥25000/月",
+      name: "小微版",
+      price: "¥30/人",
       features: [
-        "最多 1000 个用户",
+        "最多 300 个用户",
         "IM 消息功能",
         "客户支持"
       ]
     },
     {
-      name: "专业版",
-      price: "¥35000/月",
+      name: "基础版",
+      price: "¥25/月",
       features: [
-        "最多 2000 个用户",
+        "最多 600 个用户",
         "IM 消息功能",
         "客户支持"
       ]
