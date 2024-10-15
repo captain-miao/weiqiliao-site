@@ -5,7 +5,7 @@ const Pricing: React.FC = () => {
   const plans = [
     {
       name: "小微版",
-      price: "¥30/人",
+      price: "¥30 /人",
       features: [
         "最多 300 个用户",
         "IM 消息功能",
@@ -14,7 +14,7 @@ const Pricing: React.FC = () => {
     },
     {
       name: "基础版",
-      price: "¥25/月",
+      price: "¥25 /月",
       features: [
         "最多 600 个用户",
         "IM 消息功能",
