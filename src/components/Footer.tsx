@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center mb-4">
           <div className="flex items-center mb-4 md:mb-0">
-            <MessageCircle className="w-8 h-8 mr-2" />
+          <img src="/icon.svg" alt="微企聊图标" className="w-8 h-8 mr-2" />
             <span className="text-xl font-bold">微企聊</span>
           </div>
           <nav>

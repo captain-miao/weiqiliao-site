@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <header className="bg-blue-600 text-white">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex items-center">
-          <MessageCircle className="w-8 h-8 mr-2" />
+          <img src="/icon.svg" alt="微企聊图标" className="w-8 h-8 mr-2" />
           <h1 className="text-2xl font-bold">微企聊</h1>
         </div>
         <nav className="hidden md:block">
