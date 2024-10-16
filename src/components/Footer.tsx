@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
           </div>
           <nav>
             <ul className="flex space-x-6">
-              <li><a href="/app-agreement.html" className="hover:text-blue-400">服务条款</a></li>
-              <li><a href="/app-privacy.html" className="hover:text-blue-400">隐私政策</a></li>
+              <li><a href="/app-agreement.html" target="_blank" className="hover:text-blue-400">软件购买及服务协议</a></li>
+              <li><a href="/app-privacy.html" target="_blank" className="hover:text-blue-400">隐私保护指引</a></li>
             </ul>
           </nav>
         </div>
